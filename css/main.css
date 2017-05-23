@@ -27,7 +27,7 @@
 
 .span-subtitle{
 	display: block;
-	font-family: 'Myriad Pro', cursive;
+	font-family: 'Roboto', cursive;
 	font-size: .8em;
 	text-transform: uppercase;
 }
@@ -289,7 +289,7 @@ ul li{
 }
 
 .item-menu a{
-	font-family: "Myriad Pro", cursive;
+	font-family: "Roboto", cursive;
 	font-size: 1.2em;
 	color: #fff;
 	text-decoration: none;
@@ -308,7 +308,7 @@ ul li{
 	padding: 0px;
 	margin: 5vh 37%;
 	margin-top: 55vh;	
-	font: 1.1em/1em 'Myriad Pro';
+	font: 1.1em/1em 'Roboto';
 	letter-spacing: .6px;
 	color: #fff;
 	background-color: #122735;
@@ -362,7 +362,7 @@ ul li{
 	width: 40%;
 	height: auto;
 	float: left;
-	font: 500 2em/2em "Myriad Pro";
+	font: 500 2em/2em "Roboto";
 	text-transform: capitalize;
 	text-align: left;
 	padding: 0% 0% 0% 2%;
@@ -372,7 +372,7 @@ ul li{
 	width: 50%;
 	height: auto;
 	float: left;
-	font: normal 1.5em/1.2em "Myriad Pro";
+	font: normal 1.5em/1.2em "Roboto";
 	color: #999;
 	text-transform: capitalize;
 	text-align: left;
@@ -398,13 +398,13 @@ ul li{
 }
 .job-desc{
 	display: block;
-	font: normal 1.3em/1.3em "Myriad Pro";
+	font: normal 1.3em/1.3em "Roboto";
 	color: orange;
 }
 .job-desc1{
 	display: block;
 	margin-top: 4%;
-	font: normal 1.3em/1.3em "Myriad Pro";
+	font: normal 1.3em/1.3em "Roboto";
 	color: #999;
 }
 
@@ -535,7 +535,7 @@ div.quiz-container{
 	width: 40%;
 	height: 50px;
 	margin: -20px auto 0px auto;
-	font-family: "Myriad Pro";
+	font-family: "Roboto";
 	font-size: 15px;
 	color: white;
 }
