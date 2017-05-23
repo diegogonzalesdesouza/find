@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>dynx - recrutamento tech</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <script src="https://use.fontawesome.com/e0d1e216e9.js"></script>
+	<script src="js/ideal.js"></script>
+
+	<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" media="screen" href="css/login.css">
+		
+</head>
+<body onload='ready'>
+	<div id='screen-container'>
+		<div id="menu">
+			<div id="appear"></div>
+			<a href="http://diegogonzalesdesouza.github.io"><div id="logo-header"></div></a>
+			<li class="item-menu"><a href="index.html">sair</a></li>
+			<!-- <li class="item-menu"><a href="#">Jogo da Memória</a></li> -->
+			<li class="item-menu"><a href="#">meu perfil</a></li>
+		</div>
+		<div class='game-container'>
+			<div class="job">
+				<div class="job-title">Senior Software Engineer</div>
+				<div class="enterprise-logo"></div>
+				<div class="enterprise-name">spotify - são paulo</div>
+				<div class="job-info">
+					<div class="job-desc">Full-time</div>
+					<div class="job-desc1"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp&nbspSão Paulo</div>
+				</div>
+			</div>
+			<div class="job">
+				<div class="job-title">Senior Software Engineer</div>
+				<div class="enterprise-logo"></div>
+				<div class="enterprise-name">codeminer42 - são paulo</div>
+				<div class="job-info">
+					<div class="job-desc">Full-time</div>
+					<div class="job-desc1"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp&nbspSão Paulo</div>
+				</div>
+			</div>
+			<div class="job">
+				<div class="job-title">Senior Software Engineer</div>
+				<div class="enterprise-logo"></div>
+				<div class="enterprise-name">codeminer42 - são paulo</div>
+				<div class="job-info">
+					<div class="job-desc">Full-time</div>
+					<div class="job-desc1"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp&nbspSão Paulo</div>
+				</div>
+			</div>
+			<div class="job">
+				<div class="job-title">Senior Software Engineer</div>
+				<div class="enterprise-logo"></div>
+				<div class="enterprise-name">codeminer42 - são paulo</div>
+				<div class="job-info">
+					<div class="job-desc">Full-time</div>
+					<div class="job-desc1"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp&nbspSão Paulo</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<a href="http://diegogonzalesdesouza.github.io"><div class="logo">d</div></a>
+			<div class="texto-footer">dynx 2016.&nbsp&nbspTodos os direitos reservados.</div>
+		</div>
+	</div>
+		<!-- SCROLL HEADER -->
+		<script>
+			$(function() {
+			    $(window).on("scroll", function() {
+			        if($(window).scrollTop() > $('#particles-js').height()-$('#menu').height()) {
+			            document.getElementById("appear").style.display = "block";
+			            document.getElementById("logo-header").style.display = "inline-block";
+			        } else {
+			           document.getElementById("appear").style.display = "none";
+			           document.getElementById("logo-header").style.display = "none";
+			        }
+			    });
+			});	
+		</script>
+		<!-- SCROLL HEADER -->
+		<!-- PARTICLES -->
+		<!-- scripts -->
+		<script src="particles.js"></script>
+		<script src="js/app.js"></script>
+
+		// <script>
+		//   var count_particles, stats, update;
+		//   stats = new Stats;
+		//   stats.setMode(0);
+		//   stats.domElement.style.position = 'absolute';
+		//   stats.domElement.style.left = '0px';
+		//   stats.domElement.style.top = '0px';
+		//   document.body.appendChild(stats.domElement);
+		//   count_particles = document.querySelector('.js-count-particles');
+		//   update = function() {
+		//     stats.begin();
+		//     stats.end();
+		//     if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+		//       count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+		//     }
+		//     requestAnimationFrame(update);
+		//   };
+		//   requestAnimationFrame(update);
+		// </script>
+		<!-- PARTICLES -->
+</body>
+</html>
