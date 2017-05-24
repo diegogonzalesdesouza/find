@@ -1,10 +1,4 @@
 /*FORM*/
-@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
-
-/*******************
-SELECTION STYLING
-*******************/
-
 ::selection {
 	color: #fff;
 	background: #f676b2; /* Safari */
@@ -13,11 +7,6 @@ SELECTION STYLING
 	color: #fff;
 	background: #f676b2; /* Firefox */
 }
-
-/*******************
-BODY STYLING
-*******************/
-
 * {
 	margin: 0;
 	padding: 0;
@@ -41,73 +30,9 @@ body {
 	margin: 0px auto;
 }
 
-/* Download Button (Demo Only) */
-.download {
-	display: block;
-	position: absolute;
-	float: right;
-	right: 25px;
-	bottom: 25px;
-	padding: 5px;
-	
-	font-weight: bold;
-	font-size: 11px;
-	text-align: right;
-	text-decoration: none;
-	color: rgba(0,0,0,0.5);
-	text-shadow: 1px 1px 0 rgba(256,256,256,0.5);
-}
-
-.download:hover {
-	color: rgba(0,0,0,0.75);
-	text-shadow: 1px 1px 0 rgba(256,256,256,0.5);
-}
-
-.download:focus {
-	bottom: 24px;
-}
-
-/*
-.gradient {
-	width: 600px;
-	height: 600px;
-	position: fixed;
-	left: 50%;
-	top: 50%;
-	margin-left: -300px;
-	margin-top: -300px;
-	
-	background: url(http://www.demo.amitjakhu.com/login-form/images/gradient.png) no-repeat;
-}
-*/
-
-.gradient {
-	/* Center Positioning */
-	width: 600px;
-	height: 600px;
-	position: fixed;
-	left: 50%;
-	top: 50%;
-	margin-left: -300px;
-	margin-top: -300px;
-	z-index: -2;
-	
-	/* Fallback */ 
-	background-image: url(http://www.demo.amitjakhu.com/login-form/images/gradient.png); 
-	background-repeat: no-repeat; 
-	
-	/* CSS3 Gradient */
-	background-image: -webkit-gradient(radial, 0% 0%, 0% 100%, from(rgba(213,246,255,1)), to(rgba(213,246,255,0)));
-	background-image: -webkit-radial-gradient(50% 50%, 40% 40%, rgba(213,246,255,1), rgba(213,246,255,0));
-	background-image: -moz-radial-gradient(50% 50%, 50% 50%, rgba(213,246,255,1), rgba(213,246,255,0));
-	background-image: -ms-radial-gradient(50% 50%, 50% 50%, rgba(213,246,255,1), rgba(213,246,255,0));
-	background-image: -o-radial-gradient(50% 50%, 50% 50%, rgba(213,246,255,1), rgba(213,246,255,0));
-}
-
 /*******************
 LOGIN FORM
 *******************/
-
 .login-form {
 	width: 900px;
 	margin: 0 auto;
@@ -117,7 +42,6 @@ LOGIN FORM
 /*******************
 HEADER
 *******************/
-
 .login-form .header {
 	padding: 40px 30px 30px 30px;
 }
@@ -142,7 +66,6 @@ HEADER
 /*******************
 CONTENT
 *******************/
-
 .login-form .content {
 	padding: 0 30px 25px 30px;
 }
@@ -163,11 +86,6 @@ CONTENT
 	border-radius: 5px;
 	
 	}
-
-/* Second input field */
-.login-form .content .password, .login-form .content .pass-icon {
-	/* margin-top: 25px; */
-}
 
 .login-form .content .input:hover {
 	background: #dfe9ec;
@@ -224,7 +142,6 @@ CONTENT
 /*******************
 FOOTER
 *******************/
-
 .login-form .footer-form {
 	padding: 25px 30px 40px 30px;
 	overflow: auto;
